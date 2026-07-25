@@ -14,12 +14,12 @@ Este repositório centralizado reúne meus **projetos pessoais e áreas de conhe
 
 ---
 
-## 🧰 Tecnologias uso atualmente.
+## 🧰 Tecnologias que uso atualmente.
 
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
-- *(e futuramente: React, Node.js, MySQL, etc.)*
+- *Git*
 
 ---
 
