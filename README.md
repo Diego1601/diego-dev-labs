@@ -10,7 +10,7 @@ Este repositório centralizado reúne meus **projetos pessoais e áreas de conhe
 
 | Projeto | Descrição | Link |
 |----------|------------|------|
-| 🧮 [Calculadora JS](https://github.com/Diego1601/Estudos-JavaScript/tree/main/01-CalculadoraJS) | Calculadora simples com HTML, CSS e JavaScript | [Ver código](https://github.com/Diego1601/Estudos-JavaScript/tree/main/01-CalculadoraJS/02-CODIGO/src)|
+| 🧮 [Calculadora JS](02-personal-projects/[2026-07-25]-calculadora-js) | Calculadora simples com HTML, CSS e JavaScript | [Ver código](02-personal-projects/[2026-07-25]-calculadora-js/02-codigo)|
 
 
 ---
