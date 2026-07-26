@@ -1,29 +1,25 @@
-# 🚀 Calculadora JS
+# Calculadora JS
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2026-07-25%5D-calculadora-js/01-prototipo-penpot/2-versao-prototipo-vertical.png" width="300" alt="Tela 1">
+    </td>
+    <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2026-07-25%5D-calculadora-js/01-prototipo-penpot/2-versao-prototipo-horizontal.png" width="600" alt="Tela 2">
+    </td>
+  </tr>
+</table>
+
+Veja a calculadora funcionando acessando [aqui](https://estudos-java-script-c5y4.vercel.app/)
+
+
+## Sobre o projeto
 
 > Projeto desenvolvido como parte dos meus estudos em **JavaScript**, com foco em praticar lógica, manipulação do DOM e boas práticas de front-end.
 
----
 
-## 📸 Demonstração
-
-
----
-
-## 🚀 Use a CalculadoraJS
-
-https://estudos-java-script-c5y4.vercel.app/
-
-## 🧰 Tecnologias Utilizadas
-
-Este projeto foi desenvolvido com as seguintes tecnologias:
-
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (ES6+)**
-
----
-
-## 🧩 Funcionalidades
+## Funcionalidades
 
 - ✅ Recebe os valores digitados.
 - ✅ Calcula os valores recebidos.
@@ -33,9 +29,17 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - ✅ Suporte para teclado.
 - ⚙️ Em desenvolvimento *(Opção para selecionar modo de teclado com outros operadores aritméticos.)*
 
----
 
-## 📂 Estrutura de Pastas
+## Tecnologias Utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**
+
+
+## Estrutura de Pastas
 
 📦 diego-dev-labs
 
@@ -49,9 +53,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 📁 icones # Diretório contém os ícones usados na calculadora-js ├── 📄 excluir.svg, icone-calculadora.svg, js-logo.svg
 
----
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Instale o VsCode e Git**
 
@@ -83,9 +86,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
    Com a pasta aberta no VsCode, localize o arquivo **index.html**. Use o botão esquerdo do mouse em cima desse arquivo e clique na opção **Open with Live Server** e pronto, será aberta uma nova página do seu navegador web com o projeto em execução.
 
----
 
-## 💡Aprendizados
+## Aprendizados
 
 **Aprendi nesse projeto:** 
   
@@ -113,7 +115,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - ✅ Uso da função **replace()** para substituir os sinais aritméticos **÷ , x** por * e / para realizar os cálculos corretamente.
 - ✅ Pratiquei o uso de estruturas condicionais **if, else** e o uso do método **slice( )** para apagar valores digitados um por um.
 
---- 
 
 ## 👨‍💻 Autor
 
@@ -121,7 +122,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 🔗 [LinkedIn](https://www.linkedin.com/in/diegohenrique97/)  
 🐙 [GitHub](https://github.com/Diego1601)
 
---- 
 
 ## 📝 Licença
 
