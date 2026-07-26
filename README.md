@@ -11,6 +11,7 @@ Este repositório centralizado reúne meus **projetos pessoais e áreas de conhe
 | Projeto | Descrição | Link |
 |----------|------------|------|
 | 🧮 [Calculadora JS](02-personal-projects/[2026-07-25]-calculadora-js) | Calculadora simples com HTML, CSS e JavaScript | [Ver código](02-personal-projects/[2026-07-25]-calculadora-js/02-codigo)|
+| 🧮 [McDonalds - clone](02-personal-projects/[2024-03-01]-mcdonalds-clone) | Página Web com HTML, CSS, Styled Components e ReactJS| [Ver código](02-personal-projects/[2024-03-01]-mcdonalds-clone/src)|
 
 
 ---
