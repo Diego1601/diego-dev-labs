@@ -1,6 +1,36 @@
 # McDonalds - Clone
 
-Este Clone do Site McDonalds foi um desafio proposto pela empresa Vai Na Web que ministrou o curso de Desenvolvimento Web em que cursei. Foi satisfatório realizar este desafio, pois, tive a oportunidade de reforçar minhas habilidades e conhecimentos adquiridos durante o curso até o momento. Foi prazeroso participar da comunidade de alunos da Vai Na Web, tanto pelo aprendizado como pelo compartilhamento de conhecimento entre nós, alunos e instrutores. 
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/1.png" width="300" alt="Tela 1">
+    </td>
+    <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/2.png" width="300" alt="Tela 2">
+    </td>
+     <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/3.png" width="300" alt="Tela 3">
+    </td>
+      </tr>
+    <tr>
+     <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/4.png" width="300" alt="Tela 4">
+    </td>
+     <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/5.png" width="300" alt="Tela 5">
+    </td>
+     <td>
+      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/6.png" width="300" alt="Tela 6">
+    </td>
+  </tr>
+</table>
+
+Veja o site McDonalds-clone acessando [aqui](https://mc-donalds-projeto.vercel.app/)
+
+
+## Sobre o projeto
+
+> Este Clone do Site McDonalds foi um desafio proposto pela empresa Vai Na Web que ministrou o curso de Desenvolvimento Web em que cursei. Foi satisfatório realizar este desafio, pois, tive a oportunidade de reforçar minhas habilidades e conhecimentos adquiridos durante o curso até o momento. Foi prazeroso participar da comunidade de alunos da Vai Na Web, tanto pelo aprendizado como pelo compartilhamento de conhecimento entre nós, alunos e instrutores. 
 
 
 ## 🧰 Tecnologias Utilizadas
@@ -12,7 +42,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - **React-js**   
 - **JavaScript (ES6+)**
 - **Vite** 
-
 
 
 ## 📂 Estrutura de Pastas
@@ -57,7 +86,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
    Logo após isso será aberto o navegador web para que vejas o projeto.
 
----
 
 ## Pratiquei neste projeto:
 
@@ -75,7 +103,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 🔗 [LinkedIn](https://www.linkedin.com/in/diegohenrique97/)  
 🐙 [GitHub](https://github.com/Diego1601)
 
---- 
 
 ## 📝 Licença
 
