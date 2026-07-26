@@ -14,12 +14,14 @@ Este repositório centralizado reúne meus **projetos pessoais e áreas de conhe
 
 ---
 
-## 🧰 Tecnologias que uso atualmente.
+## 🧰 Hard Skills.
 
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
-- *Git*
+- **ReactJs**
+- **Git**
+- *Penpot*
 
 ---
 
