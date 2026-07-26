@@ -33,7 +33,7 @@ Veja o site McDonalds-clone acessando [aqui](https://mc-donalds-projeto.vercel.a
 > Este Clone do Site McDonalds foi um desafio proposto pela empresa Vai Na Web que ministrou o curso de Desenvolvimento Web em que cursei. Foi satisfatório realizar este desafio, pois, tive a oportunidade de reforçar minhas habilidades e conhecimentos adquiridos durante o curso até o momento. Foi prazeroso participar da comunidade de alunos da Vai Na Web, tanto pelo aprendizado como pelo compartilhamento de conhecimento entre nós, alunos e instrutores. 
 
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -44,7 +44,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - **Vite** 
 
 
-## 📂 Estrutura de Pastas
+## Estrutura de Pastas
 
 📦 diego-dev-labs
 
@@ -53,7 +53,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 📁 [2024-03-01]-mcdonalds-clone # Diretório que contém os arquivos para execução do projeto mcdonalds-clone.
 
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Instale o VsCode, Git e Node.js**
 
