@@ -1,6 +1,7 @@
 # 🧠 Repositório diego-dev-labs
 
 Bem-vindo(a)! 👋  
+
 Este repositório centralizado reúne meus **projetos pessoais e áreas de conhecimento em que estudo**, desde conceitos básicos até aplicações mais completas.
 
 ---
