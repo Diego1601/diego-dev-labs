@@ -11,7 +11,7 @@
   </tr>
 </table>
 
-Veja a calculadora funcionando acessando [aqui](https://calculadora-js-git-main-diego-henrique-s-projects.vercel.app/)
+Veja a calculadora funcionando acessando [aqui](https://diego-dev-labs.vercel.app/)
 
 
 ## Sobre o projeto
