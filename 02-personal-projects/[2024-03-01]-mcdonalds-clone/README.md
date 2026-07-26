@@ -25,7 +25,7 @@
   </tr>
 </table>
 
-Veja o site McDonalds-clone acessando [aqui](https://mc-donalds-projeto.vercel.app/)
+Veja o site McDonalds-clone acessando [aqui](https://mcdonalds-clone-7bso623jh-diego-henrique-s-projects.vercel.app/)
 
 
 ## Sobre o projeto
