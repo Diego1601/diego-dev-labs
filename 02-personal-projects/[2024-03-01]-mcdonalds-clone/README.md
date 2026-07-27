@@ -3,24 +3,24 @@
 <table align="center">
   <tr>
     <td>
-      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/1.png" width="300" alt="Tela 1">
+      <img src="https://github.com/diego-henrique-dev/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/1.png" width="300" alt="Tela 1">
     </td>
     <td>
-      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/2.png" width="300" alt="Tela 2">
+      <img src="https://github.com/diego-henrique-dev/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/2.png" width="300" alt="Tela 2">
     </td>
      <td>
-      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/3.png" width="300" alt="Tela 3">
+      <img src="https://github.com/diego-henrique-dev/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/3.png" width="300" alt="Tela 3">
     </td>
       </tr>
     <tr>
      <td>
-      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/4.png" width="300" alt="Tela 4">
+      <img src="https://github.com/diego-henrique-dev/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/4.png" width="300" alt="Tela 4">
     </td>
      <td>
-      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/5.png" width="300" alt="Tela 5">
+      <img src="https://github.com/diego-henrique-dev/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/5.png" width="300" alt="Tela 5">
     </td>
      <td>
-      <img src="https://github.com/Diego1601/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/6.png" width="300" alt="Tela 6">
+      <img src="https://github.com/diego-henrique-dev/diego-dev-labs/blob/main/02-personal-projects/%5B2024-03-01%5D-mcdonalds-clone/src/images/6.png" width="300" alt="Tela 6">
     </td>
   </tr>
 </table>
@@ -50,7 +50,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 📁 02-personal-projects/ # Diretório que contém todos os projetos pessoais 
 
-📁 [2024-03-01]-mcdonalds-clone # Diretório que contém os arquivos para execução do projeto mcdonalds-clone.
+📁 [2024-03-01]-mcdonalds-clone # Diretório que contém os arquivos para execução do projeto: **mcdonalds-clone**.
 
 
 ## Como Executar o Projeto
@@ -71,7 +71,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
    Feito isso, agora é só clonar o repositório digitando o código abaixo:
    
    ```bash
-   git clone https://github.com/Diego1601/diego-dev-labs.git
+   git clone https://github.com/diego-henrique-dev/diego-dev-labs.git
 
 
 3. **Entre na pasta pelo VsCode**
@@ -101,7 +101,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 **Diego Henrique**  
 🔗 [LinkedIn](https://www.linkedin.com/in/diegohenrique97/)  
-🐙 [GitHub](https://github.com/Diego1601)
+🐙 [GitHub](https://github.com/diego-henrique-dev)
 
 
 ## 📝 Licença
