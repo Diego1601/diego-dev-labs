@@ -1,0 +1,2052 @@
+/*RESET DO CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
+
+/*INCORPORANDO FONTE EXTERNA "LATO" */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*CONFIGURAÇÃO DA BODY */
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-items: space-evenly;
+}
+
+/*ESTILO DA HEADER */
+
+header {
+  width: 100vw;
+  height: 100%em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.HeaderTop {
+  width: 90vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ImgSelfCare {
+  width: 140px;
+}
+
+.ImgPesquisaPerfilCarrinho {
+  width: 140px;
+}
+
+.FigureHeaderBanner {
+  width: 100%;
+  height: 100%em;
+}
+
+.ImgBanner {
+  width: 100%;
+  height: 100%;
+}
+
+/* CONFIGURAÇÃO DA MAIN  */
+
+main {
+  width: 100%;
+  height: 100%em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* COMEÇANDO PELA SECTION "PROMOÇÃO, 9 PRODUTOS" */
+
+.SectionNamePromocao {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  margin-bottom: 50px;
+  border-bottom: solid #cfcaca 1px;
+}
+
+.TitlePromocao {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.TitleProdutos {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* AGORA, ESTILIZANDO A SECTION DOS PRODUTOS QUE ESTA NA MAIN*/
+
+.SectionProdutos {
+  width: 95vw;
+  height: 100%rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.DivPaiDosProdutos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 480px;
+  height: 630px;
+  margin-bottom: 5vw;
+}
+
+.FigureSectionProdutos {
+  display: flex;
+  justify-content: center;
+  background-color: #5CA720;
+  width: 474px;
+  height: 460px;
+}
+
+.ImgProduto {
+  width: 475px;
+  height: 460px;
+}
+
+.ImgProduto:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.EtiquetaProduto {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.PrecoProduto {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+span {
+  color: #5CA720;
+  text-decoration: underline;
+}
+
+
+
+.ButtonComprar {
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  border: 0;
+  border-color: #5CA720;
+  background-color: #5CA720;
+  box-shadow: 0 4px 8px #A5A1A1;
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+.ButtonComprar:hover {
+  background-color: #512200;
+  transition: 0.5s;
+}
+
+/* ESTILIZANDO A FOOTER  */
+
+footer {
+  width: 100vw;
+  border-top: solid #A5A1A1 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #E4E3E3;
+}
+
+/* COMEÇANDO PELA A SECTION SUPERIOR DA FOOTER */
+
+.SectionSuperiorFooter {
+  width: 87vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.LinkContato_E_Termos {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.LinkContato_E_Termos:hover {
+  color: #5CA720;
+  transition: 0.5s;
+}
+
+.FormNewsletter {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DivLabelNewsletter {
+  width: 93%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LabelNewsletter {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.DivInputE-mail {
+  width: 93%;
+  height: 40%;
+  display: flex;
+}
+
+.InputE-mail {
+  border: 0;
+  background-color: white;
+  padding: 1vh;
+  width: 75%;
+  height: 90%;
+  font-size: 1.2vw;
+}
+
+.ButtonInscrever {
+  width: 25%;
+  height: 90%;
+  border: 0;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+/* AGORA ESTILIZANDO A SECTION INFERIOR DA FOOTER */
+
+.SectionInferiorFooter {
+  width: 100vw;
+  border-top: solid #A5A1A1 1px;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.DivRedeSocialFooter {
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgRedeSocial {
+  width: 80%;
+}
+
+.ImgRedeSocial:hover {
+  background-color: #d4f8b7;
+  transition: 0.5s;
+}
+
+.DivBandeirasFooter {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgBandeiras {
+  width: 80%;
+}
+
+.FigureSectionInferior {
+  margin-top: 2vw;
+}
+
+/* AQUI CONFIGUREI TODAS AS QUERIES POSSÍVEIS PARA DIVERSAS TELAS. OBSERVAÇÃO: OS PIXEIS DE LARGURA E ALTURA PODEM NÃO ESTAREM EXATAMENTE IGUAIS AS TELAS.*/
+
+/*ESSAS 4 PRIMEIRAS QUERIES SÃO PARA DESKTOPS.*/
+
+@media (min-width: 1305px) and (max-width: 1524px) {
+
+  /* ESTILO DA SECTION DOS PRODUTOS */
+
+  .SectionProdutos {
+    width: 95vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 380px;
+    height: 540px;
+    margin-bottom: 5vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 375px;
+    height: 370px;
+  }
+
+  .ImgProduto {
+    width: 375px;
+    height: 370px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .ButtonComprar {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    border-color: #5CA720;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 8px #A5A1A1;
+  }
+
+  /* ESTILO SOMENTE PARA A SECTION INFERIOR DA FOOTER */
+
+  .DivRedeSocialFooter {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 80%;
+  }
+  
+  .DivBandeirasFooter {
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 80%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+@media (min-width: 1088px) and (max-width: 1304px) {
+
+  /* ESTILO DA SECTION DOS PRODUTOS */
+
+  .SectionProdutos {
+    width: 95vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 330px;
+    height: 530px;
+    margin-bottom: 5vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 325px;
+    height: 340px;
+  }
+
+  .ImgProduto {
+    width: 325px;
+    height: 340px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .ButtonComprar {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    border-color: #5CA720;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 8px #A5A1A1;
+  }
+
+  /* ESTILIZANDO A FOOTER  */
+
+  footer {
+    width: 100vw;
+    border-top: solid #A5A1A1 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E4E3E3;
+  }
+
+  /* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+  .FormNewsletter {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .DivLabelNewsletter {
+    width: 93%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .LabelNewsletter {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .DivInputE-mail {
+    width: 98%;
+    height: 40%;
+    display: flex;
+  }
+
+  .InputE-mail {
+    border: 0;
+    background-color: white;
+    padding: 1vh;
+    width: 80%;
+    height: 90%;
+    font-size: 1.2vw;
+  }
+
+  .ButtonInscrever {
+    width: 30%;
+    height: 90%;
+    border: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+  /* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+  .DivRedeSocialFooter {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 90%;
+  }
+
+  .DivBandeirasFooter {
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 90%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+@media (min-width: 930px) and (max-width: 1087px) {
+
+/* ESTILO DA SECTION DOS PRODUTOS */
+
+  .SectionProdutos {
+    width: 92vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 400px;
+    height: 570px;
+    margin-bottom: 5vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 395px;
+    height: 410px;
+  }
+
+  .ImgProduto {
+    width: 395px;
+    height: 410px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .ButtonComprar {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    border-color: #5CA720;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 8px #A5A1A1;
+  }
+
+  /* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+  .SectionSuperiorFooter {
+    width: 87vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .LinkContato_E_Termos {
+    font-size: 0.8rem;
+    color: black;
+  }
+
+  .FormNewsletter {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .DivLabelNewsletter {
+    width: 93%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .LabelNewsletter {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .DivInputE-mail {
+    width: 93%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .InputE-mail {
+    border: 0;
+    background-color: white;
+    padding: 1vh;
+    width: 80%;
+    height: 40%;
+    font-size: 2.1vw;
+  }
+
+  .ButtonInscrever {
+    width: 80%;
+    height: 40%;
+    border: 0;
+    border-radius: 3px;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  /* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+  .DivRedeSocialFooter {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 80%;
+  }
+
+  .DivBandeirasFooter {
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 80%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+@media (min-width: 815px) and (max-width: 929px) {
+
+  /* IMAGENS DA HEADER */
+
+  .ImgSelfCare {
+    width: 100px;
+  }
+
+  .ImgPesquisaPerfilCarrinho {
+    width: 100px;
+  }
+
+  /* NOME "PROMOÇÃO E PRODUTOS" DA PRIMEIRA SECTION DA MAIN */
+
+  .TitlePromocao {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .TitleProdutos {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  /* ESTILO DA SECTION DOS PRODUTOS DA MAIN */
+
+  .SectionProdutos {
+    width: 88vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    Justify-content: space-between;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 350px;
+    height: 550px;
+    margin-bottom: 5vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 345px;
+    height: 350px;
+  }
+
+  .ImgProduto {
+    width: 345px;
+    height: 350px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .ButtonComprar {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    border-color: #5CA720;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 8px #A5A1A1;
+  }
+
+  /* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+  .SectionSuperiorFooter {
+    width: 87vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .LinkContato_E_Termos {
+    font-size: 0.8rem;
+    color: black;
+  }
+
+  .FormNewsletter {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .DivLabelNewsletter {
+    width: 93%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .LabelNewsletter {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .DivInputE-mail {
+    width: 93%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .InputE-mail {
+    border: 0;
+    background-color: white;
+    padding: 1vh;
+    width: 80%;
+    height: 40%;
+    font-size: 2.5vw;
+  }
+
+  .ButtonInscrever {
+    width: 80%;
+    height: 40%;
+    border: 0;
+    border-radius: 3px;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+
+  /* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+  .DivRedeSocialFooter {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 85%;
+  }
+
+  .DivBandeirasFooter {
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 85%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+/*ESSAS 4 QUERIES SÃO PARA TABLETS.*/
+
+@media (min-width: 744px) and (max-width: 814px) {
+
+  /* IMAGENS DA HEADER */
+
+  .ImgSelfCare {
+    width: 90px;
+  }
+
+  .ImgPesquisaPerfilCarrinho {
+    width: 90px;
+  }
+
+  /* NOME "PROMOÇÃO E PRODUTOS" DA PRIMEIRA SECTION DA MAIN */
+
+  .TitlePromocao {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .TitleProdutos {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  /* ESTILO DA SECTION DOS PRODUTOS */
+
+  .SectionProdutos {
+    width: 88vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 320px;
+    height: 490px;
+    margin-bottom: 8vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 315px;
+    height: 320px;
+  }
+
+  .ImgProduto {
+    width: 315px;
+    height: 320px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .ButtonComprar {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    border-color: #5CA720;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 8px #A5A1A1;
+  }
+
+  /* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+  .SectionSuperiorFooter {
+    width: 87vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .LinkContato_E_Termos {
+    font-size: 0.8rem;
+    color: black;
+  }
+
+  .FormNewsletter {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .DivLabelNewsletter {
+    width: 93%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .LabelNewsletter {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .DivInputE-mail {
+    width: 93%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .InputE-mail {
+    border: 0;
+    background-color: white;
+    padding: 1vh;
+    width: 80%;
+    height: 40%;
+    font-size: 2.5vw;
+  }
+
+  .ButtonInscrever {
+    width: 80%;
+    height: 40%;
+    border: 0;
+    border-radius: 3px;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+
+  /* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+  .DivRedeSocialFooter {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 80%;
+  }
+
+  .DivBandeirasFooter {
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 80%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+@media (min-width: 696px) and (max-width: 743px) {
+
+/* IMAGENS DA HEADER */
+
+.ImgSelfCare {
+  width: 80px;
+}
+
+.ImgPesquisaPerfilCarrinho {
+width: 80px;
+}
+
+/* NOME "PROMOÇÃO E PRODUTOS" DA PRIMEIRA SECTION DA MAIN */
+
+.TitlePromocao {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.TitleProdutos {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+/* ESTILO DA SECTION DOS PRODUTOS */
+
+.SectionProdutos {
+  width: 88vw;
+  height: 100%rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.DivPaiDosProdutos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 300px;
+  height: 430px;
+  margin-bottom: 8vw;
+}
+
+.FigureSectionProdutos {
+  width: 295px;
+  height: 310px;
+}
+
+.ImgProduto {
+  width: 295px;
+  height: 310px;
+}
+
+.EtiquetaProduto {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.PrecoProduto {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.ButtonComprar {
+  width: 150px;
+  height: 40px;
+  border-radius: 11px;
+  border: 0;
+  border-color: #5CA720;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 0.6rem;
+  box-shadow: 0 4px 8px #A5A1A1;
+}
+
+/* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+.SectionSuperiorFooter {
+  width: 87vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.LinkContato_E_Termos {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.FormNewsletter {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DivLabelNewsletter {
+  width: 93%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.LabelNewsletter {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.DivInputE-mail {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.InputE-mail {
+  border: 0;
+  background-color: white;
+  padding: 1vh;
+  width: 100%;
+  height: 40%;
+  font-size: 3vw;
+}
+
+.ButtonInscrever {
+  width: 100%;
+  height: 40%;
+  border: 0;
+  border-radius: 3px;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+/* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+.DivRedeSocialFooter {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgRedeSocial {
+  width: 80%;
+}
+
+.DivBandeirasFooter {
+  width: 16vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgBandeiras {
+  width: 80%;
+}
+
+.FigureSectionInferior {
+  margin-top: 2vw;
+}
+}
+
+@media (min-width: 580px) and (max-width: 696px) {
+
+/* IMAGENS DA HEADER */
+
+.ImgSelfCare {
+  width: 80px;
+}
+
+.ImgPesquisaPerfilCarrinho {
+  width: 80px;
+}
+
+/* NOME "PROMOÇÃO E PRODUTOS" DA PRIMEIRA SECTION DA MAIN */
+.HeaderTop {
+  height: 50px;
+}
+
+.SectionNamePromocao {
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.TitlePromocao {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.TitleProdutos {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+/* ESTILO DA SECTION DOS PRODUTOS */
+
+.SectionProdutos {
+  width: 88vw;
+  height: 100%rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.DivPaiDosProdutos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 250px;
+  height: 390px;
+  margin-bottom: 8vw;
+}
+
+.FigureSectionProdutos {
+  width: 245px;
+  height: 250px;
+}
+
+.ImgProduto {
+  width: 245px;
+  height: 250px;
+}
+
+.EtiquetaProduto {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.PrecoProduto {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.ButtonComprar {
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  border: 0;
+  border-color: #5CA720;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 0.6rem;
+  box-shadow: 0 4px 8px #A5A1A1;
+}
+
+/* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+.SectionSuperiorFooter {
+  width: 87vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.LinkContato_E_Termos {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.FormNewsletter {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DivLabelNewsletter {
+  width: 93%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.LabelNewsletter {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.DivInputE-mail {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.InputE-mail {
+  border: 0;
+  background-color: white;
+  padding: 1vh;
+  width: 100%;
+  height: 40%;
+  font-size: 3vw;
+}
+
+.ButtonInscrever {
+  width: 100%;
+  height: 40%;
+  border: 0;
+  border-radius: 3px;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+/* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+.DivRedeSocialFooter {
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgRedeSocial {
+  width: 80%;
+}
+
+.DivBandeirasFooter {
+  width: 18vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgBandeiras {
+  width: 80%;
+}
+
+.FigureSectionInferior {
+  margin-top: 2vw;
+}
+}
+
+@media (min-width: 466px) and (max-width: 579px) {
+
+  /* ESTILO DA HEADER */
+
+  .HeaderTop {
+    height: 50px;
+  }
+  
+  .ImgSelfCare {
+    width: 80px;
+  }
+
+  .ImgPesquisaPerfilCarrinho {
+    width: 80px;
+  }
+
+  /* NOME "PROMOÇÃO E PRODUTOS" DA PRIMEIRA SECTION DA MAIN */
+
+  .SectionNamePromocao {
+    padding-left: 6vw;
+    padding-right: 7vw;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .TitlePromocao {
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+
+  .TitleProdutos {
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+
+  /* ESTILO DA SECTION DOS PRODUTOS */
+
+  .SectionProdutos {
+    width: 88vw;
+    height: 100%rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .DivPaiDosProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 8vw;
+  }
+
+  .FigureSectionProdutos {
+    width: 195px;
+    height: 200px;
+  }
+
+  .ImgProduto {
+    width: 195px;
+    height: 200px;
+  }
+
+  .EtiquetaProduto {
+    font-size: 0.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .PrecoProduto {
+    font-size: 0.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  span {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .ButtonComprar {
+    width: 140px;
+    height: 35px;
+    border-radius: 9px;
+    border: 0;
+    border-color: #5CA720;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 0.5rem;
+    box-shadow: 0 4px 8px #A5A1A1;
+  }
+
+  /* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+  .SectionSuperiorFooter {
+    width: 87vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .LinkContato_E_Termos {
+    font-size: 0.6rem;
+    color: black;
+  }
+
+  .FormNewsletter {
+    width: 95%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .DivLabelNewsletter {
+    width: 93%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .LabelNewsletter {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .DivInputE-mail {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .InputE-mail {
+    border: 0;
+    background-color: white;
+    padding: 1vh;
+    width: 100%;
+    height: 40%;
+    font-size: 3vw;
+  }
+
+  .ButtonInscrever {
+    width: 100%;
+    height: 40%;
+    border: 0;
+    border-radius: 3px;
+    background-color: #5CA720;
+    color: aliceblue;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  /* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+  .DivRedeSocialFooter {
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgRedeSocial {
+    width: 80%;
+  }
+
+  .DivBandeirasFooter {
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ImgBandeiras {
+    width: 80%;
+  }
+
+  .FigureSectionInferior {
+    margin-top: 2vw;
+  }
+}
+
+/*ESSAS 2 QUERIES SÃO PARA SMARTPHONES.*/
+
+@media (min-width: 400px) and (max-width: 465px) {
+
+/* IMAGENS DA HEADER */
+
+.ImgSelfCare {
+  width: 80px;
+}
+
+.ImgPesquisaPerfilCarrinho {
+  width: 80px;
+}
+
+/* NOME "PROMOÇÃO E PRODUTOS" DA PRIMEIRA SECTION DA MAIN */
+
+.HeaderTop {
+  height: 50px;
+}
+
+.SectionNamePromocao {
+  padding-left: 6vw;
+  padding-right: 7vw;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.TitlePromocao {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.TitleProdutos {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+/* ESTILO DA SECTION DOS PRODUTOS */
+
+.SectionProdutos {
+  width: 88vw;
+  height: 100%rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.DivPaiDosProdutos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 170px;
+  height: 260px;
+  margin-bottom: 8vw;
+}
+
+.FigureSectionProdutos {
+  width: 162px;
+  height: 167px;
+}
+
+.ImgProduto {
+  width: 165px;
+  height: 170px;
+}
+
+.EtiquetaProduto {
+  font-size: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.PrecoProduto {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+span {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.ButtonComprar {
+  width: 100px;
+  height: 25px;
+  border-radius: 7px;
+  border: 0;
+  border-color: #5CA720;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 0.6rem;
+  box-shadow: 0 4px 8px #A5A1A1;
+}
+
+/* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+.SectionSuperiorFooter {
+  width: 87vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.LinkContato_E_Termos {
+  font-size: 0.6rem;
+  color: black;
+}
+
+.FormNewsletter {
+  width: 98%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DivLabelNewsletter {
+  width: 93%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.LabelNewsletter {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.DivInputE-mail {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.InputE-mail {
+  border: 0;
+  background-color: white;
+  padding: 1vh;
+  width: 100%;
+  height: 40%;
+  font-size: 3vw;
+}
+
+.ButtonInscrever {
+  width: 100%;
+  height: 40%;
+  border: 0;
+  border-radius: 3px;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+/* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+.DivRedeSocialFooter {
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgRedeSocial {
+  width: 80%;
+}
+
+.DivBandeirasFooter {
+  width: 18vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgBandeiras {
+  width: 80%;
+}
+
+.FigureSectionInferior {
+  margin-top: 2vw;
+}
+}
+
+@media (min-width: 50px) and (max-width: 399px) {
+
+/* ESTILO DA HEADER */
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.HeaderTop {
+  width: 90vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ImgSelfCare {
+  width: 20vw;
+}
+
+.ImgPesquisaPerfilCarrinho {
+  width: 20vw;
+}
+
+/* NOME "PROMOÇÃO E PRODUTOS" DA PRIMEIRA SECTION DA MAIN */
+
+.SectionNamePromocao {
+  width: 100vw;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 9vw;
+  margin-bottom: 5vw;
+  border-bottom: solid #cfcaca 1px;
+}
+
+.TitlePromocao {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.TitleProdutos {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+/* ESTILO DA SECTION DOS PRODUTOS */
+
+.SectionProdutos {
+  width: 95vw;
+  height: 100%rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.DivPaiDosProdutos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 87vw;
+  height: 120vw;
+  margin-bottom: 10vw;
+}
+
+.FigureSectionProdutos {
+  width: 86vw;
+  height: 80vw;
+}
+
+.ImgProduto {
+  width: 86vw;
+  height: 80vw;
+}
+
+.EtiquetaProduto {
+  font-size: 4vw;
+  font-weight: 600;
+}
+
+.PrecoProduto {
+  font-size: 5vw;
+  font-weight: 600;
+}
+
+span {
+  font-size: 5vw;
+  font-weight: 600;
+}
+
+.ButtonComprar {
+  width: 40%;
+  height: 40px;
+  border-radius: 12px;
+  border: 0;
+  border-color: #5CA720;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 3vw;
+  box-shadow: 0 4px 8px #A5A1A1;
+}
+
+/* ESTILO DA SECTION SUPERIOR DA FOOTER */
+
+.SectionSuperiorFooter {
+  width: 87vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.LinkContato_E_Termos {
+  font-size: 5vw;
+  color: black;
+}
+
+.FormNewsletter {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DivLabelNewsletter {
+  width: 93%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.LabelNewsletter {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.DivInputE-mail {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.InputE-mail {
+  border: 0;
+  background-color: white;
+  padding: 1vh;
+  width: 100%;
+  height: 40%;
+  font-size: 3vw;
+}
+
+.ButtonInscrever {
+  width: 100%;
+  height: 40%;
+  border: 0;
+  border-radius: 3px;
+  background-color: #5CA720;
+  color: aliceblue;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+/* ESTILO DA SECTION INFERIOR DA FOOTER */
+
+.DivRedeSocialFooter {
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgRedeSocial {
+  width: 90%;
+}
+
+.DivBandeirasFooter {
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImgBandeiras {
+  width: 70%;
+}
+
+.FigureSectionInferior {
+  margin-top: 2vw;
+}
+}
