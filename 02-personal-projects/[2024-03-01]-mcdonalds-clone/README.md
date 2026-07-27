@@ -38,7 +38,7 @@ Veja o site McDonalds-clone acessando [aqui](https://mcdonalds-clone-theta.verce
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - **HTML5**  
-- **Styled-ComponentsS**  
+- **styled-components**  
 - **React-js**   
 - **JavaScript (ES6+)**
 - **Vite** 
