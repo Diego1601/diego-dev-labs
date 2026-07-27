@@ -16,7 +16,7 @@ Veja o site Catálogo de filmes acessando [aqui](https://catalogo-de-filmes-gamm
 ## Tecnologias usadas:
 
 - **HTML5**  
-- **Styled-ComponentsS**  
+- **styled-components**  
 - **React-js**   
 - **JavaScript (ES6+)**
 - **Vite**
