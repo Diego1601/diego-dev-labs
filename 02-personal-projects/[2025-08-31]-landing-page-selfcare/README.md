@@ -17,7 +17,7 @@
   </tr>
 </table>
 
-Veja a calculadora funcionando acessando [aqui](https://diego-dev-labs.vercel.app/)
+Veja a landing-page Selfcare acessando [aqui](https://landing-page-selfcare.vercel.app/)
 
 
 ## Sobre o projeto
